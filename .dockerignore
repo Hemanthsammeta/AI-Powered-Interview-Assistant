@@ -1,0 +1,7 @@
+target
+*.log
+*.tmp
+node_modules
+.idea
+.vscode
+.git
