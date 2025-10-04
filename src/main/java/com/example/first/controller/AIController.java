@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/ai")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://rococo-moxie-d2ce47.netlify.app/")
 public class AIController {
 
     private final AIService aiService;
@@ -85,3 +85,4 @@ public class AIController {
         return ResponseEntity.ok(resp);
     }
 }
+
