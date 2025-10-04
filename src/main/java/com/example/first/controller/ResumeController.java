@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
 
 @RestController
 @RequestMapping("/api/resumes")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://rococo-moxie-d2ce47.netlify.app/")
 public class ResumeController {
 
     // Minimal parser: extract first email & phone found (naive)
@@ -47,3 +47,4 @@ public class ResumeController {
         }
     }
 }
+
