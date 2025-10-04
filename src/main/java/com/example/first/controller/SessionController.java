@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/sessions")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://rococo-moxie-d2ce47.netlify.app/")
 public class SessionController {
 
     private final SessionRepository sessionRepository;
@@ -41,3 +41,4 @@ public class SessionController {
         return ResponseEntity.ok(sessionRepository.findAll());
     }
 }
+
